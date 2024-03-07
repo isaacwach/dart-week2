@@ -14,4 +14,13 @@ void main () {
   // List data type, for storing lists (array)
   List<int> numbers = [1, 2, 3, 4, 5];
   print('Numbers: $numbers');
+
+  // Map data type (key-value pairs)
+  Map<String, dynamic> person = {
+    'name': 'Carol Shyne',
+    'age': 25,
+    'location': 'Kayole',
+    'is_driving': true
+  };
+  print('Person: $person');
 }
