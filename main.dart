@@ -8,6 +8,10 @@ void main () {
   print ("Weight: $weight");
 
   // String data type, for storing strings
-  String name = 'John Doe';
+  String name = 'Master Zacs';
   print('Name: $name');
+
+  // List data type, for storing lists (array)
+  List<int> numbers = [1, 2, 3, 4, 5];
+  print('Numbers: $numbers');
 }
